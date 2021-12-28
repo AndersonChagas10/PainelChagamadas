@@ -1,0 +1,33 @@
+<header class="flex align-center justify-between">
+  <div class="flex justify-start">
+    <div class="header-description">
+      <h2>Paciente em atendimento</h2>
+      <span>Especialidades diversas</span>
+    </div>
+  </div>
+  <div>
+    <button mat-stroked-button  (click)="chamada()">Gerar</button>
+  </div>
+  <div>
+    {{dataHoje | date: 'EEEE d MMMM y'}}
+  </div>
+</header>
+<div class="content">
+  <h2>
+    Paciente Atual
+  </h2>
+  <div class="divisao"></div>
+  <h1>
+    {{ nick }}<br>
+    {{ message }}
+  </h1>
+</div>
+
+<div class="chamadosAnteriores">
+  <div class="chamado" *ngFor="let chamado of chamadosAnteriores; let i = index" [ngClass]="{'background': i % 2 == 0}">
+    <h1>
+      {{ chamado.nick }}<br>
+      {{ chamado.message }}
+    </h1>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+header {
+   padding: 20px 5px;
+}
+
+.content {
+  min-height: 400px;
+}
+
+.content h2{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  background-color: yellow;
+}
+
+.content .divisao {
+  height: 30px;
+  background-color: rgb(255, 187, 0);
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 90px;
+  padding: 30px;
+}
+
+.chamadosAnteriores {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.chamadosAnteriores .chamado{
+  text-align: center;
+  padding: 20px;
+}
+
+.background {
+  background-color: #f5ff5f;
+}

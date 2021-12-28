@@ -1,0 +1,35 @@
+::ng-deep snack-bar-container.info-snackbar{
+  padding: 20px;
+  background-color: #d7ebf1;
+  color: #43413d;
+  border-left-color: #4d7498 !important;
+  border-left-width: 3px !important;
+  border-left: solid;
+}
+
+::ng-deep snack-bar-container.warning-snackbar{
+  padding: 20px;
+  background-color: #fff9b2;
+  color: #43413d;
+  border: 1px;
+  border-left-color: #ffb820 !important;
+  border-left-width: 3px !important;
+  border-left: solid;
+}
+
+::ng-deep snack-bar-container.error-snackbar{
+  padding: 20px;
+  background-color: #f1d9d0;
+  color: #43413d;
+  border-left-color: #cd4141 !important;
+  border-left-width: 3px !important;
+  border-left: solid;
+}
+
+::ng-deep snack-bar-container button  {
+  color: #43413d !important;
+}
+
+::ng-deep snack-bar-container button:hover  {
+  background-color: transparent !important;
+}
